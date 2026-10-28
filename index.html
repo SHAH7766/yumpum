@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YuM PuM — Fast Food, BBQ & Pakistani Cuisine in Shahdara, Lahore</title>
+    <meta name="description" content="YuM PuM Fast Food, BBQ & Pakistani Cuisine in Shahdara Lahore. Enjoy wood-fired pizzas, smoky BBQ, karahi, and midnight delivery until 3:00 AM." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Restaurant JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "YuM PuM",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+      "@id": "https://yumpum.pk",
+      "url": "https://yumpum.pk",
+      "telephone": "+923041111373",
+      "servesCuisine": ["Fast Food", "BBQ", "Pakistani Cuisine", "Pizza", "Karahi"],
+      "priceRange": "Rs. 100 - Rs. 4000",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Main Gujranwala Road, near UBL Bank, Kashmir Park",
+          "addressLocality": "Shahdara",
+          "addressRegion": "Lahore",
+          "postalCode": "54950",
+          "addressCountry": "PK"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "YuM PuM BBQ Shawarma Chowk, Begum Kot",
+          "addressLocality": "Shahdara Town",
+          "addressRegion": "Lahore",
+          "postalCode": "54950",
+          "addressCountry": "PK"
+        }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ],
+        "opens": "11:00",
+        "closes": "03:00"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.1",
+        "reviewCount": "545"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
